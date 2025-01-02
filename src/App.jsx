@@ -13,8 +13,7 @@ function App() {
       <header className="bg-white shadow">
         <div className="container mx-auto p-4 flex justify-between items-center">
           <div>
-            <h2 className="text-2xl font-bold">Paul Miller</h2>
-            <p className="text-gray-600">Full-Stack Developer</p>
+            <h2 className="text-2xl font-bold">{userInfo.name}</h2>
           </div>
           <nav>
             <ul className="flex space-x-4">
